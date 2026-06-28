@@ -1,6 +1,6 @@
-# Sentinel‑2 Change Detection (small pipeline)
+# Sentinel‑2 Change Detection
 
-This repository contains a small Sentinel‑2 change detection pipeline split into parts:
+This repository contains a Sentinel‑2 change detection pipeline split into parts:
 
 - Part 1: stack single-band TIFFs into 3‑band true‑color GeoTIFFs and write RGB previews
 - Part 2: compute Spectral Angle Mapper (SAM) change, threshold, and postprocess
