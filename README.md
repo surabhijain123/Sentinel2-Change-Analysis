@@ -56,8 +56,8 @@ Alternative: run a specific part script directly (useful for debugging):
 # Part 3 (vectorize)
 & ".\.venv\Scripts\python.exe" "src\sentinel_change\pipelines\part3_change_vectorize.py"
 
-# Part 4 (visualize simple)
-& ".\.venv\Scripts\python.exe" "src\sentinel_change\pipelines\part4_visualize_simple.py"
+# Part 4 (visualize)
+& ".\.venv\Scripts\python.exe" "src\sentinel_change\pipelines\part4_visualize.py"
 ```
 
 ## Adjusting parameters
@@ -78,7 +78,7 @@ Produced files are written to `data/processed/`, for example:
 - `change_binary_sam.tif` — binary change mask (0/255)
 - `change_overlay_sam.tif` — RGBA overlay
 - `change_features.geojson` — vectorized polygons
-- `part4_simple_map.html` — interactive HTML map
+- `part4_map.html` — interactive HTML map
 
 ## License and notes
 

@@ -161,7 +161,7 @@ def run_part2_pipeline(base_dir: Path, threshold_method: str = "percentile") -> 
 
 if __name__ == "__main__":
     project_root = Path(__file__).resolve().parents[3]
-    output_files = run_part2_pipeline(project_root, threshold_method="otsu")
+    output_files = run_part2_pipeline(project_root, threshold_method="percentile")
     print("Part 2 complete. Created:")
     for k, v in output_files.items():
         print(f" - {k}: {v}")

@@ -11,7 +11,7 @@ DATA = BASE / 'data'
 PROCESSED = DATA / 'processed'
 AOI = BASE / 'aoi.geojson'
 GEOJSON = PROCESSED / 'change_features.geojson'
-OUT_HTML = PROCESSED / 'part4_simple_map.html'
+OUT_HTML = PROCESSED / 'part4_map.html'
 RGB_BEFORE = PROCESSED / 'sentinel2_20230812_stack_rgb_preview.tif'
 RGB_BEFORE_PNG = PROCESSED / 'sentinel2_20230812_stack_rgb_preview.png'
 
